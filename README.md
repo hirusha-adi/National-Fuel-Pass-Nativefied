@@ -54,12 +54,16 @@ electron wrapper for Sri Lanka's national fuel pass website made with nativefier
 
 1. Download and install [NodeJS](https://nodejs.org/en/download/) (Windows Installer, npm is included in it)
 2. Download and install [Python3](https://www.python.org/downloads/) (Make sure to check: **Python to PATH** on the first screen of the installer)
-3. Download the [source code](https://github.com/hirusha-adi/National-Fuel-Pass-Nativefied/archive/refs/heads/main.zip) and extract it
-4. Open command prompt in that folder
+3. Install nativefier globally using npm
+    ```
+    npm install -g nativefier
+    ```
+4. Download the [source code](https://github.com/hirusha-adi/National-Fuel-Pass-Nativefied/archive/refs/heads/main.zip) and extract it
+5. Open command prompt in that folder
 
 ![img1](https://cdn.discordapp.com/attachments/945257357867380747/998128679639056454/unknown.png)
 
-5. run this command
+6. run this command
     ```
     py build.py
     ```
